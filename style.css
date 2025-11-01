@@ -1,5 +1,17 @@
-.container:hover {
+body {
+        display: flex;
+        width: 1440px;
+        height: 960px;
+        justify-content: center;
+        align-items: center;
+        background: var(--color-yellow, #f4d04e);
+}
+
+.card:hover {
 background: chartreuse;
 
+}
 
+.btn-div {
+    margin: 0px;
 }
