@@ -49,3 +49,17 @@ button p {
   font-weight: 500;
   line-height: 160%;
 }
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background: url(./assets/images/image-avatar.webp) lightgray 50% / cover
+    no-repeat;
+}
+
+.avatar-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
