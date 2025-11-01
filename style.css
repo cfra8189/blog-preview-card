@@ -42,7 +42,20 @@ button p {
   font-style: normal;
   font-weight: 800;
   line-height: 150%;
+  
 }
+
+.card-title:hover {
+  align-self: stretch;
+  color: var(--color-gray-950, #111);
+  font-family: Figtree;
+  font-size: var(--spacing-200, 20px);
+  font-style: italic;
+  font-weight: 1000;
+  line-height: 200%;
+  cursor: pointer
+}
+.card-title:
 
 .card-text {
   align-self: stretch;
@@ -58,7 +71,11 @@ button p {
   width: 32px;
   height: 32px;
   border-radius: 32px;
-  background: url(./assets/images/image-avatar.webp) lightgray 50% / cover
+ 
+}
+
+.avatar:hover {
+     background: url(./assets/images/image-avatar.webp) lightgray 90% / cover
     no-repeat;
 }
 
