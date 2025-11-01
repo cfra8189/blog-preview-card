@@ -9,6 +9,10 @@ body {
 
 .card:hover {
   background: chartreuse;
+  border-radius: 20px;
+border: 1px solid var(--color-gray-950, #111);
+background: var(--color-white, #FFF);
+box-shadow: 8px 8px 0 0 #000;
 }
 
 button p {
@@ -61,7 +65,7 @@ button p {
 .avatar-box {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 10px;
 }
 
 .greg {
