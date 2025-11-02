@@ -89,3 +89,12 @@ button p {
   font-weight: 800;
   line-height: 150%; 
 }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
